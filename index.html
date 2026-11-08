@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>まちがいさがし</title>
+<meta name="description" content="ねんちょうさんから おとなまで あそべる まちがいさがし">
+<meta name="theme-color" content="#fff4dc">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="まちがいさがし">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&display=swap">
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+<div id="app"><div class="boot">よみこみちゅう…</div></div>
+<div id="layer"></div>
+<noscript><p style="padding:16px">JavaScript を オンにしてください。</p></noscript>
+<!-- ⚠ どれかを直したら ?v= を上げる（sw.js の SHELL も）。古いファイルと新しいファイルが混ざると、台帳の問題が別の絵になる -->
+<script src="core.js?v=1"></script>
+<script src="kinds.js?v=1"></script>
+<script src="gen.js?v=1"></script>
+<script src="verify.js?v=1"></script>
+<script src="bank.js?v=1"></script>
+<script src="app.js?v=1"></script>
+</body>
+</html>
